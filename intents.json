@@ -1,0 +1,56 @@
+
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "oi",
+        "ola",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "tudo bem"
+      ],
+      "responses": [
+        "Olá! Seja bem-vindo à Marmita Caseira! Como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "preco_vegetariana",
+      "patterns": [
+        "quanto custa a vegetariana",
+        "qual o preco da vegetariana",
+        "quanto custa a marmita vegetariana",
+        "valor da marmita vegetariana",
+        "preco da marmita vegetariana"
+      ],
+      "responses": [
+        "A marmita vegetariana custa R$ 19,00 cada."
+      ]
+    },
+    {
+      "tag": "acompanhamento_vegetariana",
+      "patterns": [
+        "o que acompanha a vegetariana",
+        "quais os acompanhamentos da vegetariana",
+        "o que vem na marmita vegetariana",
+        "ingredientes da marmita vegetariana"
+      ],
+      "responses": [
+        "A marmita vegetariana vem acompanhada de arroz, feijao e legumes."
+      ]
+    },
+    {
+      "tag": "pedido",
+      "patterns": [
+        "como fazer um pedido",
+        "quero fazer um pedido",
+        "como pedir uma marmita",
+        "quero comprar uma marmita"
+      ],
+      "responses": [
+        "Para fazer seu pedido, informe qual marmita deseja e a quantidade."
+      ]
+    }
+  ]
+}
